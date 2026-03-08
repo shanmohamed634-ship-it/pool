@@ -1,0 +1,24 @@
+.instagram-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #ffffff;   /* white background */
+  color: #e1306c;              /* Instagram color */
+  border: 1px solid #e1306c;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.instagram-btn:hover {
+  background-color: #e1306c;
+  color: #ffffff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.instagram-icon {
+  font-size: 16px;
+}

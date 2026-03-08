@@ -1,0 +1,58 @@
+/* Card */
+.review-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* Stars */
+.modern-stars {
+  font-size: 34px;
+}
+
+.modern-star {
+  cursor: pointer;
+  color: #ddd;
+  margin: 0 6px;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.modern-star.active {
+  color: #ffb703;
+  transform: scale(1.15);
+}
+
+/* Textarea */
+.modern-textarea {
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  resize: none;
+}
+
+/* Button */
+.modern-btn {
+  background: linear-gradient(135deg, #007bff, #00b4d8);
+  border: none;
+  padding: 10px 26px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+/* Review List */
+.modern-review {
+  background: #ffffff;
+  padding: 15px 18px;
+  border-radius: 12px;
+  margin-top: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.review-stars {
+  color: #ffb703;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+ 
